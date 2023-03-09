@@ -18,7 +18,7 @@ Página web dedicada al turismo en Valencia, España, con toda la información n
 
 - También se puede clonar el repositorio de GitHub y abrir el archivo index.html en cualquier navegador web:
 
-    git clone https://github.com/usuario/repositorio.git
+    git clone https://github.com/RS-Devs/Web-Turismo-en-Valencia.git
 
 
 # Tecnologías utilizadas:
