@@ -14,7 +14,9 @@ Página web dedicada al turismo en Valencia, España, con toda la información n
 
 # Uso
 
-- Para visualizar la página se puede acceder directamente al siguiente enlace: https://turismo-valencia.netlify.app/
+- Para visualizar la página se puede acceder directamente al siguiente enlace: 
+
+    https://turismo-valencia.netlify.app/
 
 - También se puede clonar el repositorio de GitHub y abrir el archivo index.html en cualquier navegador web:
 
