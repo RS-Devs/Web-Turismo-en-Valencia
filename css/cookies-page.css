@@ -1,0 +1,51 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .cookie-notice {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  .cookie-notice h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  .cookie-notice h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .cookie-notice p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  .cookie-notice b {
+    font-weight: 700;
+  }
+  .cookie-notice a {
+    color: #00f;
+    text-decoration: none;
+  }
+  .cookie-notice a:hover {
+    text-decoration: underline;
+  }
+
+  .card-bg {
+    background: rgb(0, 113, 176);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 113, 176, 1) 0%,
+      rgba(215, 9, 19, 1) 64%,
+      rgba(251, 223, 2, 1) 100%
+    );
+  }

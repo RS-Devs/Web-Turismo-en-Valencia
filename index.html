@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Turismo en Valencia</title>
+
+    <meta property="og:image" content="/img/miniature/miniature.png">
+    <meta property="og:title" content="Turismo Valencia">
+    <meta property="og:description"
+        content="Pagina de tutismo en Valencia, con toda la información necesaria de un viaje completo, desde donde dormir comer y que lugares visitar, hasta las actividades de cada lugar">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://turismo-valencia.netlify.app/">
+
+    <meta name="description" content="Página web de turismo en Valencia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/section.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/loader.css">
+    <link rel="stylesheet" href="/css/playas.css">
+    <link rel="stylesheet" href="/css/monuments.css">
+    <link rel="stylesheet" href="/css/cookies.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+    <!-------------------------------- Loader --------------------------------------->
+
+
+    <div id="loading" class="loading">
+        <img id="loading-image" class="loading-image " src="img/icon/flag-1.png" alt="Loading..." />
+    </div>
+
+
+    <!-- Cabecera -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-tit" href="/index.html"> <img src="/img/icon/logo.png" alt="logo" width="50"
+                        height="35" class="">Valencia Turismo <img src="/img/icon/flag-1.png" alt="logo" width="40"
+                        height="25" class=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#tourism">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#what-do">Lugares de interés</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#where-lunch">Gastronomía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#where-sleep">Alojamiento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+
+
+        <section class="bg-light p-5 pb-5 card-bg" id="tourism">
+            <div class="container tourism-bg ">
+                <div class="d-flex justify-content-center headline ">
+                    <img class="img-fluid img-main mt-5 rounded-circle border border-5 border-warning shadow-yell"
+                        src="/img/icon/valence.jpeg" alt="">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="d-inline-flex justify-content-center align-items-center text-center pt-3">
+                        <h1
+                            class="headline fw-bold display-4 mb-5 z-index bg-black text-decoration-underline text-tit border border-3 border-warning rounded-5 text-center p-3 shadow-yell d-inline-block">
+                            Valencia Turismo
+                        </h1>
+                    </div>
+                </div>
+                <h2 class=" headline display-4 mb-4 bg-black text-warning border border-3 border-warning rounded-5 text-center z-index text-tit-2 shadow-yell"
+                    id="discover-vlc">Descubre Valencia</h2>
+                <p class=" headline lead mt-5 mb-5 text-white">Valencia es una ciudad mediterránea con mucho encanto,
+                    llena de
+                    contrastes
+                    y con
+                    una amplia oferta turística. Aquí te presentamos algunos de los atractivos más destacados que puedes
+                    visitar:</p>
+                <div class="row mb-5 headline">
+                    <div class="col-md-6">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img class="card-img-top" src="/img/main/malvarrosa.png" alt="Playa de Valencia">
+                            <div class="card-body">
+                                <h2 class="card-title border border-3 border-warning rounded-5">Playas</h2>
+                                <p class="card-text">Valencia cuenta con una amplia oferta de playas urbanas y
+                                    naturales, con aguas cristalinas y arenas finas. Desde la famosa Malvarrosa hasta la
+                                    tranquila playa de El Saler, hay opciones para todos los gustos.</p>
+                                <ul>
+                                    <li>Horarios: Las playas de Valencia están abiertas todo el año, aunque los horarios
+                                        pueden variar dependiendo de la época del año.</li>
+                                    <li>Tarifas: La entrada a las playas es gratuita.</li>
+                                    <li>Consejos: Recomendamos visitar las playas en los meses de verano, cuando el
+                                        clima es más cálido y las aguas son más agradables para bañarse.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a class="btn btn-info bg-black border-3 rounded-4 text-warning shadow-yell" target="_blank"
+                                href="/beach.html">Más
+                                información</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 headline" id="up-butn">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img class="card-img-top" src="/img/main/lonja.png" alt="Ciudad de Valencia">
+                            <div class="card-body">
+                                <h2 class="card-title border border-3 border-warning rounded-5">Monumentos históricos
+                                </h2>
+                                <p class="card-text">Valencia tiene una rica historia y cultura, que se refleja en sus
+                                    monumentos y edificios históricos. Entre ellos destacan la Catedral de Valencia, la
+                                    Lonja de la Seda, el Mercado Central y la Plaza del Ayuntamiento.</p>
+                                <ul>
+                                    <li>Horarios: Los horarios de visita varían dependiendo del lugar, pero suelen estar
+                                        abiertos de lunes a domingo.</li>
+                                    <li>Tarifas: Las tarifas de entrada varían dependiendo del lugar, pero suelen ser
+                                        económicas.</li>
+                                    <li>Consejos: Recomendamos visitar estos lugares en días de semana para evitar las
+                                        multitudes y llevar zapatos cómodos para caminar por las calles empedradas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mb-4 ">
+                            <a class="btn btn-info bg-black border-3 rounded-4 text-warning shadow-yell" target="_blank"
+                                href="/monuments.html">Más
+                                información</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 headline">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img class="card-img-top" src="/img/main/ciutat-vella.png" alt="Barrio de Valencia">
+                            <div class="card-body">
+                                <h2 class="card-title border border-3 border-warning rounded-5">Barrios con encanto</h2>
+                                <p class="card-text">Valencia tiene una gran variedad de barrios con encanto, cada uno
+                                    con su propia personalidad y atractivos. Algunos de los más destacados son:</p>
+                                <ul>
+                                    <li><strong>El Carmen:</strong> Este barrio es uno de los más antiguos de Valencia y
+                                        está lleno de historia y cultura. Aquí encontrarás calles estrechas, plazas
+                                        pintorescas, bares y restaurantes.</li>
+                                    <li><strong>Ruzafa:</strong> Ruzafa es uno de los barrios más de moda en Valencia,
+                                        con una gran cantidad de tiendas, bares, restaurantes y galerías de arte.
+                                        También es conocido por su ambiente multicultural y su animada vida nocturna.
+                                    </li>
+                                    <li><strong>Cánovas:</strong> Cánovas es un barrio elegante y sofisticado, conocido
+                                        por sus edificios modernistas y su amplia oferta de tiendas y restaurantes. Aquí
+                                        encontrarás algunas de las tiendas más exclusivas de Valencia.</li>
+                                </ul>
+                                <p>Explora estos y otros barrios con encanto en Valencia para descubrir su auténtico
+                                    ambiente y cultura.</p>
+
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a class="btn btn-info bg-black border-3 rounded-4 text-warning shadow-red" target="_blank"
+                                href="/streets.html">Más
+                                información</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 headline">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img class="card-img-top" src="/img/main/valencia.png"
+                                alt="Imagen de la Ciudad de las Artes y las Ciencias">
+                            <div class="card-body">
+                                <h2 class="card-title border border-3 border-warning rounded-5 ">Ciudad de las Artes y
+                                    las Ciencias</h2>
+                                <p class="card-text">La Ciudad de las Artes y las Ciencias es uno de los lugares más
+                                    emblemáticos de Valencia, un complejo de edificios futuristas diseñados por Santiago
+                                    Calatrava. Aquí encontrarás el Oceanográfico, el Museo de las Ciencias Príncipe
+                                    Felipe, el Hemisfèric y el Ágora.</p>
+                                <ul>
+                                    <li>Horarios: Los horarios de visita varían dependiendo del lugar, pero suelen estar
+                                        abiertos de lunes a domingo.</li>
+                                    <li>Tarifas: Las tarifas de entrada varían dependiendo del lugar, pero hay opciones
+                                        de entrada combinada.</li>
+                                    <li>Consejos: Recomendamos reservar con anticipación para evitar largas filas y
+                                        llevar zapatos cómodos para caminar por el complejo.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a class="btn btn-info bg-black border-3 rounded-4 text-warning shadow-red" target="_blank"
+                                href="/science-arts.html">Más
+                                información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="call-to-action text-center mt-5 headline">
+                    <h2
+                        class="fw-bold mb-5 mt-5 z-index bg-black text-decoration-underline text-tit border border-3 border-secondary rounded-5  text-center p-2 shadow-red">
+                        ¡Visita Valencia y descubre su encanto por ti mism@!</h2>
+                    <a class="btn btn-info border border-4 border-secondary rounded-5 bg-black  btn-bounce text-tit shadow-red"
+                        target="_blank"
+                        href="https://www.logitravel.com/viajes/europa/espana/valencia/vuelo-hotel/">Reserva tu viaje
+                        ahora!</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="bg-light p-5" id="what-do">
+            <div class="container">
+                <h2
+                    class="headline display-4 mb-4 mt-4 bg-black text-warning border border-3 border-warning rounded-5 text-center text-tit-2 shadow-yell">
+                    Qué hacer en Valencia</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4 headline">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img class="card-img-top" src="/img/main/ciudad-artes-ciencias.png"
+                                alt="Imagen de la Ciudad de las Artes y las Ciencias">
+                            <div class="card-body">
+                                <h2 class="card-title border border-3 border-warning rounded-5 ">Ciud. de las Artes y
+                                    las Ciencias</h2>
+                                <p class="card-text">Uno de los complejos culturales y arquitectónicos más importantes
+                                    de Europa.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4  headline">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img src="/img/main/casco-historico.png" class="card-img-top"
+                                alt="Imagen del Casco Antiguo de Valencia">
+                            <div class="card-body">
+                                <h5 class="card-title border border-3 border-warning rounded-5 text-center">Casco
+                                    Antiguo</h5>
+                                <p class="card-text">Recorre el centro histórico de Valencia y descubre la riqueza de su
+                                    patrimonio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 headline">
+                        <div class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                            <img src="/img/main/mercado-central.png" class="card-img-top"
+                                alt="Imagen del Mercado Central Valencia">
+                            <div class="card-body">
+                                <h5 class="card-title border border-3 border-warning rounded-5 text-center">Mercado
+                                    Central</h5>
+                                <p class="card-text">Descubre el encanto del Mercado Central de Valencia, uno de los
+                                    mercados más grandes y emblemáticos de Europa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mb-4 headline">
+                        <a class="btn bg-black border-warning border-3  rounded-4 text-warning shadow-yell"
+                            target="_blank" href="/plans.html">Más
+                            información</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-sec margin-custom" id="bg-sec">
+            <section class="py-5  mb-5" id="where-lunch">
+                <div class="container">
+                    <h2
+                        class="headline display-4 mt-5 mb-5 bg-black text-warning border border-3 border-warning rounded-5 text-center text-tit-2 shadow-yell">
+                        Dónde comer en Valencia</h2>
+                    <div class="row mt-5">
+                        <div class="col-md-4 mb-4 headline">
+                            <div
+                                class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                                <img src="/img/main/la-taska-sidreria.jpeg" class="card-img-top" alt="Imagen de paella">
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                        La Taska Sidreria</h5>
+                                    <p class="card-text text-justify">Disfruta de la auténtica cocina europea y española
+                                        con
+                                        opciones
+                                        vegetarianas y sin gluten en nuestro restaurante abierto hasta tarde. Además,
+                                        disfruta de nuestra amplia terraza exterior, reservas fáciles y servicios de
+                                        comodidad como tronas disponibles y acceso para discapacitados, todo acompañado
+                                        de
+                                        un bar completo y wifi gratuito.</p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 mb-4 headline">
+                            <div
+                                class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                                <img src="/img/main/ricard-camarena.jpeg" class="card-img-top" alt="Imagen de tortilla">
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                        Ricard Camarena Restaurant</h5>
+                                    <p class="card-text text-justify">Descubre la auténtica cocina mediterránea, europea
+                                        y
+                                        española del restaurante de Ricard Camarena, con un enfoque saludable y
+                                        productos
+                                        frescos de la huerta y el mar. Disfruta de una terraza exterior, reservas
+                                        fáciles,
+                                        restaurante privado y capacidad para grupos, además de una selección de vinos y
+                                        cervezas.
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 mb-4 headline">
+                            <div
+                                class="card mb-4 card-fixed-height border border-3 border-warning rounded-5 shadow-yell">
+                                <img src="/img/main/meat-market.jpeg" class="card-img-top" alt="Imagen de tapas">
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                        Meat Market</h5>
+                                    <p class="card-text text-justify">Prueba nuestras carnes de vaca vieja con
+                                        diferentes
+                                        maduraciones, cocinadas a la perfección en nuestro horno Josper con cocina Show
+                                        Cooking. Seleccionamos diariamente verduras frescas del mercado central y
+                                        productos
+                                        de primera calidad. Aprovecha nuestra capacidad, servicio
+                                        de mesa, bar completo y opciones de reserva fácil.</p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="text-center mb-4 headline">
+                            <a href="/restaurants.html" target="_blank"
+                                class="btn  bg-black border border-3 border-warning rounded-4 text-warning mx-auto shadow-yell">Más
+                                lugares de Comida </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container my-5" id="where-sleep">
+                <h2
+                    class="headline display-4 mt-5 mb-5 bg-black text-warning border border-3 border-warning rounded-5 text-center text-tit-2 shadow-yell">
+                    Dónde
+                    dormir en Valencia</h2>
+                <div class="row justify-content-center mt-5 mb-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 headline">
+                        <div class="card mb-4 card-fixed-height-2 border border-3 border-warning rounded-5 shadow-yell">
+                            <img src="/img/main/olympia.png" class="card-img-top" alt="olympia">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                    Olympia Hotel, Events & Spa</h5>
+                                <p class="card-text">El Olympia Hotel, Events & Spa es un hotel de lujo en Valencia que
+                                    ofrece una gran variedad de instalaciones y servicios para garantizar una estancia
+                                    perfecta. Con un spa de 2000 m², varias piscinas, restaurantes y una ubicación ideal
+                                    cerca del centro de la ciudad, este hotel es ideal tanto para turistas como para
+                                    viajeros de negocios.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a href="https://www.olympiahotelvalencia.com/ofertas/" target="_blank"
+                                class="btn  bg-black border border-3 border-warning rounded-4 text-warning mx-auto shadow-yell">Reservar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 headline">
+                        <div class="card mb-4 card-fixed-height-2 border border-3 border-warning rounded-5 shadow-yell">
+                            <img src="/img/main/arenas.png" class="card-img-top" alt="Arenas">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                    Hotel Balneario Las Arenas</h5>
+                                <p class="card-text">El Hotel Balneario Las Arenas es un hotel boutique de cinco
+                                    estrellas
+                                    ubicado en un edificio histórico de estilo Belle Époque. El hotel cuenta con un
+                                    impresionante spa termal, varios restaurantes, una terraza con vistas al mar y una
+                                    ubicación privilegiada en la playa de Las Arenas. Con una atención al detalle
+                                    excepcional, el Hotel Balneario Las Arenas es perfecto para aquellos que buscan una
+                                    experiencia de lujo en Valencia.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a href="https://www.hotelvalencialasarenas.com/es/ofertas/" target="_blank"
+                                class="btn  bg-black border border-3 border-warning rounded-4 text-warning mx-auto shadow-yell">Reservar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 headline">
+                        <div class="card mb-4 card-fixed-height-2 border border-3 border-warning rounded-5 shadow-yell">
+                            <img src="/img/main/silken.png" class="card-img-top" alt="Silken">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                    Silken Puerta Valencia</h5>
+                                <p class="card-text">El Silken Puerta Valencia es un hotel moderno de cuatro estrellas
+                                    situado en el centro de Valencia. Con un diseño elegante y contemporáneo, el hotel
+                                    cuenta con habitaciones cómodas y bien equipadas, un restaurante y un bar. Además,
+                                    el
+                                    hotel está cerca de muchas atracciones turísticas de la ciudad, lo que lo convierte
+                                    en
+                                    una base ideal para explorar Valencia.
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="text-center mb-4">
+                            <a href="https://www.hoteles-silken.com/es/hotel-puerta-valencia/ofertas/" target="_blank"
+                                class="btn  bg-black border border-3 border-warning rounded-4 text-warning mx-auto shadow-yell">Reservar</a>
+                        </div>
+                    </div>
+
+                    <div class="text-center mb-4 mt-5 headline">
+                        <a href="/sleep.html" target="_blank"
+                            class="btn  bg-black border border-3 border-warning rounded-4 text-warning mx-auto shadow-yell">Más
+                            opciones de Alojamiento </a>
+                    </div>
+            </section>
+        </div>
+
+        <section class=" card-bg-2 py-5" id="events">
+            <div class="container">
+                <h2
+                    class=" headline text-center mt-5 mb-5  bg-black text-warning border border-3 border-warning rounded-5 text-center text-tit-2 shadow-yell">
+                    Eventos de Fallas en Valencia</h2>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 headline">
+                        <div class="card mb-4 card-fixed-height-2 border border-3 border-warning rounded-5 h-100">
+                            <img src="img/main/mascleta.jpeg" class="card-img-top" alt="Evento 1">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                    Mascletà en la Plaza del Ayuntamiento</h5>
+                                <p class="card-text">Disfruta del espectáculo de pirotecnia diario durante las Fallas en
+                                    la Plaza del Ayuntamiento.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 headline">
+                        <div class="card mb-4 card-fixed-height-2 border border-3 border-warning rounded-5 h-100">
+                            <img src="img/main/ofrenda.jpeg" class="card-img-top" alt="Evento 2">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                    Ofrenda de Flores a la Virgen de los Desamparados</h5>
+                                <p class="card-text">Únete a la multitudinaria ofrenda de flores a la patrona de
+                                    Valencia durante las Fallas.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 headline">
+                        <div class="card mb-4 card-fixed-height-2 border border-3 border-warning rounded-5 h-100">
+                            <img src="img/main/crema.jpeg" class="card-img-top" alt="Evento 3">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title bg-black border border-3 border-warning rounded-4 text-warning text-center">
+                                    Cremà de la Falla Mayor</h5>
+                                <p class="card-text">No te pierdas la espectacular quema de la Falla Mayor en la noche
+                                    del 19 de marzo.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center mb-4 headline">
+                        <a href="/events.html" target="_blank"
+                            class="btn mb-5 bg-black border border-3 border-warning rounded-4 text-warning mx-auto shadow-yell">Más
+                            información sobre eventos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="contact" class="card-bg-3">
+            <div class=" d-flex justify-content-center text-center mt-5 mb-5">
+                <div class="mt-1 mb-5 contact-form border border-5 border-warning w-50 headline">
+                    <span
+                        class="heading text-warning fw-bold border border-3 border-warning bg-black rounded-5 text-tit-2">Contacto</span>
+                        <form id="contact-form" name="contact-form" action="https://formsubmit.co/5d4da59fea6753ce5c89dac72f6c89c6" method="post"
+                        class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Nombre" required>
+                                    <label for="name">Nombre</label>
+                                    <div class="invalid-feedback">Por favor, introduzca su nombre</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="surname" name="surname"
+                                        placeholder="Apellidos" required>
+                                    <label for="surname">Apellidos</label>
+                                    <div class="invalid-feedback">Por favor, introduzca sus apellidos</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Correo Electrónico" required>
+                                    <label for="email">Correo Electrónico</label>
+                                    <div class="invalid-feedback">Por favor, introduzca una dirección de correo
+                                        válida</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Mensaje..." style="height: 70px" required></textarea>
+                                    <label for="message">Mensaje</label>
+                                    <div class="invalid-feedback">Por favor, escriba su mensaje</div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                    <button type="submit" id="send" value="send"
+                                        class="btn btn-primary btn-block">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="_next" value="https://turismo-valencia.netlify.app/">
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <button id="btn-up" title="Volver arriba"><a href="#tourism"><i class="fa-brands fa fa-chevron-up"></i></a></button>
+
+    <!-- Pie de página -->
+    <footer class="bg-light pt-3  py-4">
+        <div class="container">
+            <div class="text-center ">
+                <img class="img-fluid img-main mt-3 rounded-circle border border-5 border-dark shadow-black"
+                    src="/img/icon/valence.jpeg" alt="">
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <p class="text-black mb-0">© 2023 Turismo en Valencia. Todos los derechos reservados.</p>
+                </div>
+
+                <div class="col-lg-6 text-center text-lg-end">
+                    <p class="text-black mb-0">Síguenos en las redes sociales:</p>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" rel="noopener" class="text-reset">
+                                <i class="fa-brands fa-instagram fa"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" rel="noopener" class="text-reset">
+                                <i class="fa-brands fa-twitter fa"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="aviso-cookies" id="aviso-cookies">
+        <img class="galleta"
+            src="https://d33wubrfki0l68.cloudfront.net/b22d136e7215d54cac30490c2ffc706b01cc1a92/d5388/img/cookies/cookie.svg"
+            alt="Galleta">
+        <h3 class="titulo">Cookies</h3>
+        <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+        <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+        <a class="enlace" href="/cookies.html" target="_blank">Aviso de Cookies</a>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        ScrollReveal().reveal('.headline', { delay: 500 });
+    </script>
+
+
+    <script src="/js/main.js"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/validateForm.js"></script>
+    <script src="/js/cookies.js"></script>
+    <script src="/js/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

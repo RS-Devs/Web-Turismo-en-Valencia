@@ -1,0 +1,111 @@
+/* Corn */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #FAD904;
+}
+
+.navbar-brand:hover {
+  color: #FAD904 !important;
+}
+
+/* Salem */
+
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler:hover {
+  background-color: #056EAF;
+}
+
+/* Crimson */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #DB0C13;
+}
+
+/* Gordons Green */
+.navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: #0c0f06;
+  color: #fff;
+}
+
+.a-nav {
+  background-color: #000000;
+}
+
+.a-nav > a {
+  color: #FAD904;
+}
+
+.a-nav > a:hover {
+  color: #DB0C13;
+  font-weight: bold;
+}
+
+#search input[type="search"] {
+  background-color: #FAD904;
+  border-color: #DB0C13;
+  color: #0c0f06;
+}
+
+#search input[type="search"]:focus {
+  outline: none;
+  box-shadow: none;
+  
+}
+
+#search button[type="submit"] {
+  background-color: #056EAF;
+  border-color: #FAD904;
+  color: #ffffff;
+}
+
+
+
+#search button[type="submit"] {
+  background-color: #056EAF !important;
+  border-color: #FAD904 !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+#search button[type="submit"]:hover {
+  background-color: #DB0C13 !important;
+  border-color: #FAD904 !important;
+  color: #ffffff !important;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+
+.input-search:focus {
+    animation: box-shadow 1s ease-out;
+    -webkit-animation: box-shadow 1s ease-out;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+  
+  @keyframes box-shadow {
+    0% {
+      box-shadow: none;
+    }
+    50% {
+      box-shadow: 0 0 20px rgb(255, 0, 0);
+    }
+    100% {
+      box-shadow: none;
+    }
+  }
+  
+
+  .navbar-collapse {
+    transition: height 0.3s ease-in-out;
+    overflow-y: hidden;
+  }
+   

@@ -1,0 +1,137 @@
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+html {
+  background-color: #000000 !important;
+}
+
+body {
+  overflow: -moz-scrollbars-none;
+  overflow: scroll;
+}
+
+#what-do {
+  background: url("/img/bg/flag.png") no-repeat;
+}
+
+.bg-sec{
+    background-image: url("/img/bg/bg-sec.jpeg");
+    background-size: cover ;
+}
+
+.margin-custom{
+    margin-bottom:-3rem;
+}
+
+
+/* Estilos para el encabezado */
+
+.text-tit {
+  color: #db0c13 !important;
+  text-shadow: 0px 0px 10px #db0c13;
+}
+
+.text-tit-1 {
+  text-shadow: 0px 0px 10px #db0c13;
+}
+
+.text-tit-2 {
+  text-shadow: 0px 0px 10px #fad904;
+}
+
+.text-tit-3 {
+  text-shadow: 0px 0px 10px #000000;
+}
+
+.box-sha {
+  text-shadow: 0px 0px 20px #fad904;
+}
+
+.box-sha-1 {
+  text-shadow: 0px 0px 20px #db0c13 !important;
+}
+
+header {
+  background-color: #1d3557;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+.img-main {
+  width: 100px;
+}
+
+/* Estilos para la sección principal */
+
+section {
+  padding: 50px 0;
+  z-index: 1;
+}
+
+section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-fixed-height {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.card-fixed-height-2 {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.card-fixed-height-3 {
+  max-height: 520px;
+  overflow: auto;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+  background-color: #f1faee;
+  color: #1d3557;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+/* Estilos para enlaces */
+
+a:hover {
+  text-decoration: none;
+  color: #1d3557;
+}
+
+

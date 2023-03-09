@@ -1,0 +1,21 @@
+.shadow-yell {
+  box-shadow: 0px 0px 20px 1px #fad904;
+}
+
+.shadow-black {
+  box-shadow: 0px 0px 20px 1px #000000;
+}
+
+.shadow-red {
+  box-shadow: 0px 0px 20px 1px #db0c13;
+}
+.shadow-blue {
+  box-shadow: 0px 0px 20px 1px #0D6EFD;
+}
+
+#consejos .btn:hover {
+  background-color: #db0c13 !important;
+  border-color: #fad904 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
